@@ -1,4 +1,4 @@
-# NginxConfigPack
+# Nginx server configs
 
 Nginx の設定ファイル
 
