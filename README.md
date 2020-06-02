@@ -54,6 +54,6 @@ $ mv phpMyAdmin-[0-9]* phpMyAdmin
 ```shell
 $ wget https://ja.wordpress.org/latest-ja.tar.gz -P /var/www
 $ tar zxvf /var/www/latest-ja.tar.gz
-$ rm -rf /var/www/html | mv /var/www/wordpress /var/www/html
+$ rm -rf /var/www/html ; mv /var/www/wordpress /var/www/html
 $ sudo chown -R nginx: /var/www/html
 ```
